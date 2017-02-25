@@ -5,16 +5,16 @@ Q: How is the staging area different from the working directory and the reposito
 A: Staging area helps you to commit only the relevent files you want to commit and not the whole directory. It's a temporary state so it gives you freedom.
 
 Q: How can you use the staging area to make sure you have one commit per logical change?
-A: you can decide what you'll have at the staging area.
+A: You can use git diff --staged to see what has been changed compared to the latest commit you have, this way you can be sure you're commiting per logical change.
 
 Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
-A: If you want to create another version of your code you can make a branch to it. This way, all change you will make will be attached to the specific branch.
+A: If you want to create another version of your code you can make a branch to it. This way, all new changes you will make will be attached to the the new side branch.
 
 Q: How do the diagrams help you visualize the branch structure?
-A: You can see the parent of the commit and the order of commits.
+A: You can see the parent of the commit and the order of commits and by this way the structre of the code is more accessable.
 
 Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
-A: You're getting a code that is combined of two different versions. The representation is so that we could see clearly what changes were made.
+A: You're getting a code that is combined of two different versions. The representation is so that we could see clearly what changes were made and the commits are in order by time stamp.
 
 Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
-A: Git helps you to merge all the code and his history, while if something is similar it lets you to decide what change to make. Doing manually takes more time and sometimes might also lead to mistakes.
+A: Git helps you to merge all the code and his history, while if something is similar it lets you to decide what changes could potentialy make, problem is that you still have to do it manually. Doing manually takes more time and sometimes might also lead to mistakes.
