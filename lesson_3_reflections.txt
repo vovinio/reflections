@@ -11,3 +11,6 @@ Branch - You make another version of your code aside of your code on your own co
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 This way you can do diff between both versions and see what changes has been made, while you don't have to be connected to the internet to see the changes that were made online. It's also a good way to merge the the diefferent versions if needed.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+I would probably save different versions on my computer or on google drive. If i'll need to collaborate i'll use email probably. It would be harder to save many different versions of your work.
