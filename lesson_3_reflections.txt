@@ -14,3 +14,6 @@ This way you can do diff between both versions and see what changes has been mad
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 I would probably save different versions on my computer or on google drive. If i'll need to collaborate i'll use email probably. It would be harder to save many different versions of your work.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+If you'd like to work on a some unique change or you'd like to make a change that someone else would look into it, than you'll make a seperate branch for it and it would be easier to collaborate this way.
